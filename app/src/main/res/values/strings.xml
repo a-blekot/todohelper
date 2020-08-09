@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TodoHelper</string>
+    <string name="button_select_random">Select TODO</string>
+    <string name="button_select">Select</string>
+    <string name="button_search">Search random</string>
+    <string name="on_error_loading_todos">Some error occurred during loading todoTasks!</string>
+    <string name="tasks_not_loaded">Sorry, todo tasks were not loaded correctly. Try again.</string>
+
+    <string name="user_name">User: %1$s</string>
+    <string name="user_name_placeholder">User: Antony Hopkins</string>
+
+    <string name="todo_id">TODO ID: #%1$d</string>
+    <string name="todo_id_placeholder">TODO #145</string>
+
+    <string name="todo_task_placeholder">Todo task: go shopping with girlfriend.</string>
+
+</resources>

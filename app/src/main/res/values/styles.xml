@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="card_view_style" parent="Widget.MaterialComponents.CardView">
+        <item name="cornerFamily">rounded</item>
+        <item name="android:layout_margin">@dimen/margin_normal</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cornerRadius">@dimen/card_corner_radius</item>
+        <item name="elevation">@dimen/card_elevation</item>
+        <item name="android:minHeight">@dimen/card_height</item>
+    </style>
+
+    <style name="card_view_style.checkable" parent="card_view_style">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:checkable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="card_view_style.name" parent="card_view_style">
+        <item name="android:minHeight">@dimen/card_height_name</item>
+    </style>
+
+    <style name="todo_title" parent="TextAppearance.AppCompat.Small">
+        <item name="android:padding">@dimen/margin_extra_small</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/title_size</item>
+    </style>
+
+    <style name="user_name" parent="todo_title">
+        <item name="android:textSize">@dimen/name_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
